@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700');
+ul{
+    font-size: 15px;
+    color: #505050;
+}
+ul li .close-navbar{
+    margin-top: -65px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+ul li i{
+    margin-right: 10px;
+}
+ul li{
+    color: #505050;    
+}
+ul li:hover{
+    color: #CF2E26;
+}
+.main-menu-content ul li:hover{
+    background-color: #E7E6E6;
+    color: #CF2E26;
+}
+.main-menu{
+    visibility: visible;
+}
+
+/* */
+.edit-top{
+    margin: auto;
+    margin-top: 150px;
+    padding: 10px;
+}
+
+
+.main-bar{
+    background-color: white;
+    color: #505050;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* PART #1 */
+.main-bar .part1{
+    margin: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #E7E6E6;
+}
+.main-bar h4,h6{
+    font-weight: 700;
+}
+.main-bar select{
+    width: 100%;
+    border: 1px solid #E7E6E6;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.main-bar .check{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* PART #2 */
+.main-bar .part2{
+    margin: 30px;
+    padding-top: 30px;
+    border-bottom: 1px solid #E7E6E6;
+}
+.part2 .salary{
+    margin-bottom: 30px;
+}
+.part2 .salary .salary-form{
+    margin-right: 25px;
+    margin-top: 15px;
+}
+.part2 .input-group{
+    border: 1px solid #E7E6E6;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* PART #3 */
+.main-bar .part3{
+    margin: 30px;
+    padding-top: 30px;
+}
+.main-bar .part3 textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E7E6E6;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
